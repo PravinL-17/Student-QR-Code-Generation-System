@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>College QR Code</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/home.css">
+</head>
+
+<body>
+    <div class="main-block">
+        <div class="left-part" style="height: 100%;">
+            <i class="fas fa-graduation-cap"></i>
+            <h1>Register for QR code Generation</h1>
+            <p>Collge Provide QR code for Every student</p>
+
+        </div>
+        <form action="/reg" method="post" enctype="multipart/form-data">
+            <div class="title">
+                <i class="fas fa-pencil-alt"></i>
+                <h2>Register here</h2>
+            </div>
+            <div class="info">
+                <input type="text" name="prn" placeholder="PRN">
+                <input type="text" name="fullname" placeholder="Full name">
+                <input type="text" name="email" placeholder="Email">
+                <input type="text" name="phone" placeholder="Phone number">
+                <input type="text" name="dob" placeholder="DOB">
+                <input type="text" name="address" placeholder="ADDRESS">
+                <input type="text" name="city" placeholder="City">
+                <input type="text" name="dept" placeholder="Department">
+                <input type="number" name="year" placeholder="Year">
+                <input type="number" name="join" placeholder="Joining Year">
+                <input type="number" name="pass" placeholder="Passout Year">
+                <input type="file" name="get_image" placeholder="Passport Photo" />
+
+
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
